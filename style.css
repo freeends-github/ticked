@@ -1,0 +1,554 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    background-color: #e9e9e9;
+    font-family: "Myriad Pro", Myriad;
+    padding-right: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #525252;
+}
+body{
+    width: 78%;
+    margin: auto;
+    background-color: white;
+}
+header{
+    display: flex;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    max-width: 85%!important;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+li a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header-items{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width:100%;
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.search>input{
+  width: 170px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 2px solid #c2c2c2;
+  border-right: none;
+  border-radius: 3px;
+  position: relative;
+}
+.search img{
+    width: 27px;
+    height: 30px;
+    border: 2px solid #c2c2c2;
+    border-left: none;
+    margin-right: 10px;
+    padding: 6px;
+    padding-top: 7px;
+    position:absolute;
+}
+.languages{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.languages ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px 0px;
+}
+.languages ul li a{
+    color: grey;
+    position: relative;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.languages ul li a:after{
+    content: "|";
+    position:absolute;
+    right: -7px;
+}
+.languages ul li:last-child a:after {
+    display: none;
+}
+.nav-links{
+    width:100%;
+    margin-bottom: 3px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    background-color: #a8a8a8;
+    width: 100%;
+}
+.nav-links ul li{
+    padding:12px 15px;
+
+}
+.nav-links ul li a{
+    color: white;
+    font-size: 12px;
+    margin:20px 12px;
+}
+#ele {
+    color: #a8a8a8;
+
+}
+.nav-links ul li:hover{
+    background-color: rgb(208, 11, 1);
+}
+.features{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: .5rem!important;
+    height:192px;
+}
+.features>div{
+    width:25%;
+    height:100%;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content:space-between;
+    padding:30px;
+}
+.features img{
+    margin-top: 10px;
+}
+.features h2{
+    font-size: 18px;
+    font-weight: 640;
+    color: #525252;
+    line-height: 1.2;
+}
+.meso {
+text-align: center;
+background-color: #e9e9e9;
+}
+.regjistrohu {
+    text-align: center;
+    background-color: #d8d8d8;
+}
+.artikujt{
+ text-align: center;
+background-color: #c2c2c2;;
+ }
+.shkolla-verore {
+text-align: center;
+background-color: #a8a8a8;
+}
+.info{
+ display: flex;
+ justify-content:space-evenly;
+}
+.it img{
+    margin-left: 10px;
+}
+.it-kids img{
+    margin-right: 50px;
+}
+.it{
+   left:-20px;
+}
+.it ol{
+    margin-left: 10px;
+}
+.it-kids{
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.it-kids ol{
+    margin-left: 10px;
+}
+.info h2{
+    font-size: 20px;
+    color: #525252;
+    font-weight: 640;
+    padding: 10px;
+    font-family: inherit;
+}
+span{
+    border-bottom: 4px solid rgb(208, 11, 1);
+}
+.info p{
+    margin-top: 8px;
+    margin-bottom:3px;
+    font-size: 13px;
+    color: #525252;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.info ol li{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #525252;
+    font-weight: 500;
+}
+.info a{
+    display:inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(208, 11, 1);
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.info a:hover{
+    text-decoration: underline;
+}
+.moreinfo{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    
+    
+}
+.schedule{
+    background-color: #d8d8d8;
+    height: 340px;
+}
+.schedule h3{
+    font-size: 24px;
+    color: #525252;
+    font-weight: 640;
+    padding-top: 10px;
+}
+.java{
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 3opx;
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+.javap {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 640;
+    line-height: 1.5;
+}
+.javap h4{
+    color: rgb(208, 11, 1);
+}
+.javap a{
+    display:flex;
+    justify-content: flex-end;
+}
+.bootstrap{
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+ .bootstrapp p{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 640;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.bootstrapp h4{
+    margin-left: 30px;
+    font-size: 13px;
+    color: #525252;
+    font-weight: 650;
+    color: rgb(208, 11, 1);
+}
+.sourceversion{
+    padding: 10px;
+    padding-top: 3opx;
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+}
+
+.sourceversionp {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 640;
+    line-height: 1.5;
+} 
+.sourceversionp h4{
+    color: rgb(208, 11, 1);
+}
+
+.kushjemi h3{
+    font-size: 24px;
+    color: #525252;
+    font-weight: 640;
+    padding-top: 10px;
+}
+.kushjemi{
+    background-color: #c2c2c2;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.ekipi{
+    display:grid;
+    grid-template-columns: 0.5fr 4fr;
+    padding: 10px;
+    margin: 10px;
+}
+.ekipip{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 640;
+    padding-right: 20px;
+}
+
+.ekipi img{
+    padding-top: 15px;
+}
+.ekipi h3{
+
+    font-size: 16px;
+    font-weight: 640;
+    color: rgb(208, 11, 1);
+    margin-bottom: 8px;
+
+}
+.praktika{
+    display:grid;
+    grid-template-columns: 0.5fr 4fr;
+    padding: 10px;
+    margin: 10px;
+}
+.praktikap{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 640;
+}
+.praktika img{
+    padding-top: 15px;
+}
+.praktika h3{
+
+    font-size: 16px;
+    font-weight: 640;
+    color: rgb(208, 11, 1);
+    margin-bottom: 8px;
+}
+.partneret{
+    display:grid;
+    grid-template-columns: 0.5fr 4fr;
+    padding: 10px;
+    margin: 10px;
+}.partneretp{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 640;
+}
+.partneret img{
+    padding-top: 15px;
+}
+.partneret h3{
+
+    font-size: 16px;
+    font-weight: 640;
+    color: rgb(208, 11, 1);
+    margin-bottom: 8px;
+}
+.rrethnesh{
+    display: grid;
+    grid-template-columns: 0.5fr 4fr;
+    padding: 10px;
+    margin: 10px;
+}.rrethnesh{
+    display:grid;
+    grid-template-columns: 0.5fr 4fr;
+    padding: 10px;
+    margin: 10px;
+}.rrethneshp{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 640;
+}
+.rrethnesh img{
+    padding-top: 15px;
+}
+.rrethnesh h3{
+
+    font-size: 16px;
+    font-weight: 640;
+    color: rgb(208, 11, 1);
+    margin-bottom: 8px;
+}
+.fotostu{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.student-articles{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+}
+.student{
+    margin-top: 15px;
+    display:block;
+}
+.headlines{
+    text-align: center;
+}
+#happystudents{
+    color: rgb(208, 11, 1);
+    font-weight: 500;
+}
+.headlines p{
+    font-size: 12px;
+    padding: 0px;
+}
+.fotostu{
+    padding: 10px;
+    margin: 10px;
+}
+.gipii {
+    position: relative;
+}
+.gipii .quote {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.gipii p{
+    font-size: 12px;
+    color: #808080;
+    margin-left: 10px;
+}
+.gipii h6{
+    font-size: 12px;
+    margin: 10px 10px;
+    color: rgb(208, 11, 1);
+}
+.fotostu-img{
+    border-radius: 80px;
+    height: 160px;
+    max-width: 85%!important;
+    vertical-align: middle;
+    border: 2px solid #a50000;
+}
+.articles{
+    padding: 10px;
+}
+.articles h2{
+    font-size: 22px;
+    margin: 5px 0;
+    color: rgb(208, 11, 1);
+    font-weight: 500;
+}
+.articles ul li{
+    margin: 10px;
+    font-size: 13px;
+    color: #525252;
+}
+.articles ul li a{
+    color: #525252;
+    font-weight: 640;
+}
+footer{
+    color: white;
+}
+footer .first-footer{
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #a50000;
+    border: 1px solid white;
+
+}
+.email input{
+    margin-left: 13px;
+    height: 35px;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 50px;
+}
+.email button{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    background-color: white;
+    color: red;
+    border: 1px solid white;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.numbers{
+    display:flex;
+}
+.numbers p{
+    font-size: 12px;
+}
+.numbers img{
+
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.adresa{
+    display: flex;
+}
+.adresa img{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.adresa p{
+    font-size: 13px;
+   margin-right: 20px;
+   margin-left: 10px;
+}
+.mail{
+    display:flex;
+}
+.mail img{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.mail p{
+    padding: 10px;
+    font-size: 13px;
+}
+footer .second-footer{
+    background-color: #a50000;
+    display:flex;
+    justify-content:space-between;
+}
+.second-footer-1 p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.second-footer-2 img{
+    margin:15px 1px;
+     padding:10px 1px;
+}
