@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: gray;
+}
+body {
+  width: 79.5%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: white;
+}
+h4 {
+  color: rgb(208, 11, 1);
+  font-size: 25px;
+}
+header {
+  display: flex;
+}
+.logo {
+  width: 150px;
+  height: 131px;
+  padding-left: 10px;
+}
+.container-items {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.links ul {
+  display: flex;
+  list-style: none;
+  padding-right: 10px;
+  margin: 10px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: #212529;
+  font-weight: bold;
+}
+
+.shqip:after {
+  content: "|";
+  position: relative;
+  right: 2px;
+}
+.Search-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.Search-box input {
+  padding: 5px;
+  border: 2px solid #c2c2c2;
+}
+.b2 {
+  position: relative;
+  right: 23px;
+  top: 5px;
+  height: 17px;
+  width: 17px;
+}
+.navigation ul {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(168, 168, 168);
+  list-style: none;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.navigation ul li {
+  padding: 10px;
+}
+.navigation ul li a {
+  color: white;
+}
+.navigation ul li a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 14px;
+}
+.navigation ul li:hover {
+  background-color: rgb(208, 11, 1);
+}
+.Row1 {
+  display: flex;
+}
+.Row1 div {
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.Row1 div img {
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Row1 div:hover a {
+  color: rgb(208, 11, 1);
+}
+.Row1 div a {
+  color: #555555;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+.First-Column1 {
+  background-color: #e8e8e8;
+  padding: 1.5em 0em !important;
+}
+.Second-Column1 {
+  background-color: #d8d8d8;
+  padding: 1.5em 0em !important;
+}
+.Third-Column1 {
+  background-color: #c2c2c2;
+  padding: 1.5em 0em !important;
+}
+.Fourth-Column1 {
+  background-color: #a8a8a8;
+  padding: 1.5em 0em !important;
+}
+.Row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 10px;
+}
+.Second-Column2 div {
+  margin-right: 20px;
+}
+
+.spani {
+  border-bottom: 4px solid rgb(208, 11, 1);
+}
+.Row2 div h4 p a {
+  color: red;
+}
+.Row3 a:hover {
+  text-decoration: underline;
+}
+.text1 {
+  padding-top: 10px;
+  padding-right: 0px;
+}
+.text2 {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.text1 ol {
+  padding-inline-start: 20px;
+}
+.text2 ol {
+  padding-inline-start: 20px;
+}
+.b1 {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.b1 a {
+  background-color: rgb(208, 11, 1);
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.Row2 .b1:hover a {
+  text-decoration-line: underline;
+}
+.Second-Column2 img {
+  padding-left: 20px;
+}
+.Row3 {
+  display: flex;
+  margin-top: 10px;
+}
+.Row3 div {
+  height: 100%;
+}
+.Row3 p {
+  font-size: 12px;
+  color: #525252;
+}
+.Row3 a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(208, 11, 1);
+}
+.bes a {
+  position: relative;
+  left: 75%;
+  top: 5px;
+  text-decoration: underline;
+}
+
+.Orari {
+  background-color: #d8d8d8;
+  width: 40.11111%;
+}
+.Orari div {
+  margin: 5px;
+  padding-top: 10.5px;
+}
+.Orari h3 {
+  padding: 5px;
+}
+.First-Course {
+  display: flex;
+}
+.Second-Course {
+  display: flex;
+}
+.Third-Course {
+  display: flex;
+}
+.cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 55px;
+}
+.Kolonat {
+  width: 65%;
+  padding-bottom: 5px;
+}
+.Row3 div {
+  font-weight: 560;
+}
+.Kolonat div {
+  background-color: #c2c2c2;
+  font-weight: 560;
+}
+.Kolonat p {
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+}
+.Kolonat a {
+  font-size: 14px;
+}
+.Kolonat h3 {
+  padding: 8px;
+}
+.Kolonat img {
+  padding-right: 10px;
+}
+.Team {
+  display: flex;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.Team-content {
+  position: relative;
+  left: 10px;
+}
+.Practise-content {
+  position: relative;
+  left: 10px;
+}
+.Practise {
+  display: flex;
+  position: relative;
+}
+.Partners {
+  display: flex;
+  padding: 10px;
+}
+.Rreth {
+  display: flex;
+}
+.Row4 {
+  display: flex;
+}
+.First-item {
+  width: 67%;
+}
+.img3 {
+  position: relative;
+}
+.bes2 {
+  background-color: white;
+  position: relative;
+  left: 450px;
+}
+.text3 {
+  font-size: 20px;
+}
+.First-item .Text {
+  display: box;
+  font-size: 15px;
+  padding-top: 15px;
+}
+.First-item h5 {
+  color: #808080;
+  font-weight: 400;
+  font-size: 12px;
+}
+.First-item h6 {
+  color: #a50000;
+  position: relative;
+  top: 5px;
+  font-size: 12px;
+}
+.img5 {
+  display: flex;
+  position: relative;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.TEXT {
+  position: relative;
+  left: 25px;
+  width: 65%;
+}
+
+.img3 {
+  border-radius: 41%;
+  width: 150px;
+  border: 1px solid #a50000;
+}
+.textt {
+  padding-bottom: 20px;
+}
+.Second-item {
+  width: 33.3%;
+}
+.Second-item p a {
+  text-decoration: none;
+  color: #525252;
+  padding-bottom: 30px;
+  font-weight: 640;
+  font-size: 13px;
+}
+.Second-item h3 {
+  position: relative;
+  font-size: 20px;
+  top: 19px;
+  color: rgb(208, 11, 1);
+}
+.text3 {
+  position: relative;
+  padding-left: 350px;
+  top: 15px;
+}
+.p-t {
+  position: relative;
+  top: 20px;
+}
+.Second-item p a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+.First-Row {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 50%;
+}
+.First-Row img {
+  padding-top: 8px;
+  padding-right: 10px;
+}
+.First-Row p {
+  font-size: 13px;
+}
+.butoni1 {
+  color: rgb(208, 11, 1);
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5%;
+  position: relative;
+  top: 20px;
+}
+.inputi {
+  padding: 8px;
+  background-color: #a50000;
+  border: 2px solid white;
+  position: relative;
+  top: 20px;
+  color: black;
+  border-radius: 5%;
+}
+.inputi:focus {
+  background-color: white;
+}
+input:focus::placeholder {
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+
+.second-element {
+  display: flex;
+  padding: 30px;
+}
+.third-element {
+  display: flex;
+  padding: 30px;
+}
+.fourth-element {
+  display: flex;
+  padding: 28px;
+}
+.fourth-element p {
+  padding: 10px;
+}
+footer .First-Row {
+  background-color: #a50000;
+  border-bottom: 1px solid white;
+}
+.first-element {
+  margin: 10px;
+  padding: 5px;
+  height: 15px;
+}
+.Second-Row {
+  height: 50%;
+  background-color: #a50000;
+}
+.Second-Row .buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5px;
+}
+.buttons div button {
+  border-radius: 50%;
+  border: 1px solid white;
+  position: relative;
+  bottom: 25px;
+  right: 15px;
+  justify-content: space-around;
+}
+.button1 {
+  padding-right: 8px;
+}
+.button2 {
+  padding-right: 8px;
+}
+.info4 {
+  color: white;
+  font-size: 13px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
